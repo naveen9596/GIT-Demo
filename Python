@@ -16,3 +16,5 @@ print(q1)
 if q1 in ['y','Y']:
    q2 = input('What kind of fruit you need to Purchase?')
    print('Thank you for Buying:'+ q2)
+else:
+   print('Thank you your visit! Come back again')
