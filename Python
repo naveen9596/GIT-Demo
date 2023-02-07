@@ -1,0 +1,18 @@
+************Console Application:********
+
+Online Fruit Shop Application
+
+---Program:---
+
+# Welcome note for Title
+Title  ='Welcome to Online Food market'
+print(Title)
+
+# Allow user to Type:
+
+q1=input('would you like to buy some fruits? (Y/N)')
+print(q1)
+
+if q1 in ['y','Y']:
+   q2 = input('What kind of fruit you need to Purchase?')
+   print('Thank you for Buying:'+ q2)
