@@ -1,0 +1,37 @@
+Source Code
+class Student():
+    name = "Siva Kumar"
+    age = 35
+ 
+ 
+''' This is Class Attributes '''
+ 
+*****# 1.getattr method****
+Class Attributes in Python
+
+
+print(getattr(Student, 'name'))
+print(getattr(Student, 'age'))
+print(getattr(Student, 'gender', 'No Such Attribute Found'))
+ ----------------------------------------------------
+******# 2. Dot Notation********
+print(Student.name)
+print(Student.age)
+ ----------------------------------------------------
+***# 3. setattr(we can create n no of attribute by using dot notation)***
+
+setattr(Student, 'name', 'Aspire')
+print(Student.name)
+ 
+setattr(Student, 'gender', 'Male')
+print(Student.gender)
+ 
+Student.city = "Salem"
+print(Student.city)
+ ----------------------------------------------------
+print(Student.__dict__)
+delattr(Student,"city")
+print(Student.__dict__)
+del Student.gender
+print(Student.__dict__)
+  
